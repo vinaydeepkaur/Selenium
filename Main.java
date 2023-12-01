@@ -24,7 +24,7 @@ public class Main {
 		WebElement disablesInput = driver.findElement(By.xpath("//input[@id=\"my-disabled"));
 		WebElement readOnly = driver.findElement(By.tagName("ReadOnly"));
 
-		if (input != null) {
+		if (input ! = null) {
 			input.sendKeys("abc");
 		}
 		if (password != null) {
